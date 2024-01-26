@@ -6,7 +6,7 @@ and plays with the ambiguity of reading between the lines. Starting point is the
 by Bob Dylan Subterranean Homesick Blues. Get the mp4 file from youtube-dl if you want to 
 re-create this experiment.
 
-![Watch the video](https://i.vimeocdn.com/video/1788725174-fe30f52a68845c0922b6192f86d130bb8381f0366395f022c44717b6fd9c3976-d?mw=1100&mh=825&q=70)](https://vimeo.com/906760283)
+[![Watch the video](https://i.vimeocdn.com/video/1788725174-fe30f52a68845c0922b6192f86d130bb8381f0366395f022c44717b6fd9c3976-d?mw=1100&mh=825&q=70)](https://vimeo.com/906760283)
 
 [Play the audio](https://www.youtube.com/watch?v=1I_oWQmddMk)
 
