@@ -1,7 +1,6 @@
 # Subterranean Homesick Diffusion
 
-This project is a test to see what happens if you create various feedback loops 
-with generic generative image and classification tools. It visualises what the model sees
+This project is an experiment into the latent space of diffusion models  to see what happens if you create various feedback loops with generic generative image and classification tools. It visualises what the model "sees"
 and plays with the ambiguity of reading between the lines. Starting point is the music clip
 by Bob Dylan Subterranean Homesick Blues. Get the mp4 file from youtube-dl if you want to 
 re-create this experiment.
@@ -10,7 +9,7 @@ re-create this experiment.
 
 [Play the audio](https://www.youtube.com/watch?v=1I_oWQmddMk)
 
-The generated video is here (due to copyright issues it's without sound. Make sure you start the [audio clip](https://www.youtube.com/watch?v=1I_oWQmddMk) at the same time as the online video)
+The generated video is [available here](https://vimeo.com/906760283) (due to copyright issues it's without sound. Make sure you start the [audio clip](https://www.youtube.com/watch?v=1I_oWQmddMk) at the same time as the online video)
 
 ## Installation
 
