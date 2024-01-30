@@ -2,7 +2,7 @@
 
 This project is an experiment into the latent space of diffusion models  to see what happens if you create various feedback loops with generic generative image and classification tools. It visualises what the model "sees"
 and plays with the ambiguity of reading between the lines. Starting point is the music clip
-by [Bob Dylan Subterranean Homesick Blues](https://www.youtube.com/watch?v=MGxjIBEZvx0). The individual frames are interpreted by an img2prompt model and the generated prompts are being fed into a stable diffusion prompt. 
+by [Bob Dylan Subterranean Homesick Blues](https://www.youtube.com/watch?v=MGxjIBEZvx0). The individual frames are interpreted by an img2prompt model and the generated prompts are being fed back into a stable diffusion prompt. 
 
 Get the mp4 file via [youtube-dl](https://github.com/yt-dlp/yt-dlp) if you want to re-create this experiment.
 
