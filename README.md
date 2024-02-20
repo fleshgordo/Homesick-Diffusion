@@ -2,9 +2,9 @@
 
 This project is a playful exploration of the latent space within diffusion models by establishing a feedback loop with versatile generative image analysis and generation tools. It plays with the ambiguity of reading between the lines and highlights the arbitrariness of the models used therein. The starting point is the music clip by [Bob Dylan Subterranean Homesick Blues](https://www.youtube.com/watch?v=MGxjIBEZvx0). One frame per second from the videoclip is sent to and interpreted by an img2prompt model that creates plausible prompts from what the model sees. Leveraging CLIP Interrogator, a neural network for image interpretation and prompt generation, these prompts feed into a text-to-image generative AI model that mirrors the methods of image analysis. The resulting frames are then reassembled into the original video length. Please note, due to music copyright restrictions, you'll need to play the soundtrack separately while watching the newly generated video.
 
-[![Watch the video](https://i.vimeocdn.com/video/1788725174-fe30f52a68845c0922b6192f86d130bb8381f0366395f022c44717b6fd9c3976-d?mw=1100&mh=825&q=70)](https://vimeo.com/906760283)
-
 [Play the video](https://vimeo.com/906760283) | [Play the audio](https://www.youtube.com/watch?v=1I_oWQmddMk)
+
+[![Watch the video](https://i.vimeocdn.com/video/1788725174-fe30f52a68845c0922b6192f86d130bb8381f0366395f022c44717b6fd9c3976-d?mw=1100&mh=825&q=70)](https://vimeo.com/906760283)
 
 The generated video is [available here](https://vimeo.com/906760283) (due to copyright issues it's without sound. Make sure you start the [audio clip](https://www.youtube.com/watch?v=1I_oWQmddMk) at the same time as the online video)
 
