@@ -1,13 +1,13 @@
 # Subterranean Homesick Diffusion
 
-This project is an experiment into the latent space of diffusion models  to see what happens if you create a feedback loop with generic generative image analysis and generation tools. It plays with the ambiguity of reading between the lines and highlights the arbitrariness of the models used. The starting point is the music clip
-by [Bob Dylan Subterranean Homesick Blues](https://www.youtube.com/watch?v=MGxjIBEZvx0). One still-frame per second is piped and interpreted by an img2prompt model that creates plausible prompts from what the model sees. These generated prompts are then being fed back into a stable diffusion prompt that is based on the same methods as the image analyis. The generated frames are then compiled back into the original video length. 
+This project is an experiment into the latent space of diffusion models  to see what happens if you create a feedback loop with generic generative image analysis and generation tools. It plays with the ambiguity of reading between the lines and highlights the arbitrariness of the models used therein. The starting point is the music clip
+by [Bob Dylan Subterranean Homesick Blues](https://www.youtube.com/watch?v=MGxjIBEZvx0). One frame per second from the videoclip is sent to and interpreted by an img2prompt model that creates plausible prompts from what the model sees. It is based on CLIP Interrogator, a neural network that aims to interpret images and generate plausible prompts for difussion models. These generated prompts are then being fed back into a text-to-image generative AI model that is based on the similar methods as the image analyis. The generated frames are then compiled back into the original video length. Due to music copyright you'll have to play the soundtrack yourself to the newly generated video.  
 
 Get the mp4 file via [youtube-dl](https://github.com/yt-dlp/yt-dlp) if you want to re-create this experiment.
 
 [![Watch the video](https://i.vimeocdn.com/video/1788725174-fe30f52a68845c0922b6192f86d130bb8381f0366395f022c44717b6fd9c3976-d?mw=1100&mh=825&q=70)](https://vimeo.com/906760283)
 
-[Play the audio](https://www.youtube.com/watch?v=1I_oWQmddMk)
+[Play the video](https://vimeo.com/906760283) | [Play the audio](https://www.youtube.com/watch?v=1I_oWQmddMk)
 
 The generated video is [available here](https://vimeo.com/906760283) (due to copyright issues it's without sound. Make sure you start the [audio clip](https://www.youtube.com/watch?v=1I_oWQmddMk) at the same time as the online video)
 
